@@ -9,6 +9,7 @@ def initialize_route(app: Flask):
         app.register_blueprint(main_bp, url_prefix='/api/v1/main')
         app.register_blueprint(main_bp, url_prefix='/api/v1/main')
         app.register_blueprint(main_bp, url_prefix='/api/v1/main')
+        app.register_blueprint(main_bp, url_prefix='/api/v1/main')
 
 
 def initialize_db(app: Flask):
